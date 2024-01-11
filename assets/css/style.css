@@ -99,6 +99,13 @@ main {
     flex-direction: column;
 }
 
+/* styling about Section */
+#abouts {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.8;
+}
 /* heroine Section */
 #heroine {
     height: 600px;
@@ -272,9 +279,7 @@ footer p {
             margin: 0 0.5rem;
         }
         /* Gallery */
-        #photos {
-            column-count: 3;
-        }
+
     
         /* Main content */
         main {

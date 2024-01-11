@@ -1,7 +1,6 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap');
 
-/* Asterisk wildcare selector to override default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
@@ -92,7 +91,6 @@ nav {
 
 /* Main Content */
 main {
-    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
     display:flex;
@@ -275,9 +273,6 @@ footer p {
         line-height: 75px;
         margin: 0 0.5rem;
     }
-    /* Gallery */
-
-
     /* Main content */
     main {
 

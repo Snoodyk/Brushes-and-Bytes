@@ -139,12 +139,64 @@ main {
     line-height: 0;
 }
 
-/* Footer */
 
-footer {
-    border-top: 1px solid #0a0202;
+
+
+
+* Contact Section */
+#contact {
+    height: 600px;
+    width: 100%;
+    position: relative;
 }
 
+/* Three columns side by side */
+.column {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  /* Display the columns below each other instead of side by side on small screens */
+  @media screen and (max-width: 767px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  /* Add some shadows to create a card effect */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Some left and right padding inside the container */
+  .container {
+    padding: 0 16px;
+  }
+  
+
+
+  /* Clear floats */
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+    padding: 8px 0;
+  }
+
+ .spaced {
+    padding: 8px 0;
+ }
+
+/* Footer */
 #social-icons {
     text-align: center;
     padding: 5px 0;
@@ -159,15 +211,13 @@ footer {
     padding: 5%;
     color: #3a3a3a;
     margin: 0 10px;
-   
-
 }
+
 footer p {
     
     color: black;
     text-align: center;
 }
-
 
 #social-networks {
     text-align: center;
@@ -183,8 +233,8 @@ footer p {
     color: #3a3a3a;
 }
 
-/* Media query: laptop (576px and up*/
-@media screen and (max-width: 480px) {
+/* Media query: laptop (864px and down */
+@media screen and (max-width: 824px) {
     #logo-icon {
         display: none;
     }
@@ -201,7 +251,7 @@ footer p {
 
 }
 /*Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 824px) {
         /* header */
         nav {
             display: block;
@@ -231,29 +281,29 @@ footer p {
         /* Gallery */
 
     
-    
         /* Main content */
         main {
 
-        flex: 1 0 auto;
-       
-        margin-top: 47px;
-   
-        display: flex;
-        flex-direction: column;
+            flex: 1 0 auto;
+        
+            margin-top: 47px;
+    
+            display: flex;
+            flex-direction: column;
         }
-            /* heroine */
-            #cover-text {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-            }
 
-            
+        /* Contact section */
+        #contact {
+            margin-top: 47px;
+        }
 
- 
-
+        /* heroine */
+        #cover-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
 
         /* Large devices (laptops and desktops, 992px and up) */
         @media screen and (min-width: 992px) {
@@ -269,5 +319,4 @@ footer p {
         column-count: 4;
 
         }
-}
 }

@@ -115,7 +115,7 @@ Main structure of page reference used from love running project template. also u
 
 - The text for the Home page was taken from ???
 - The text for the Gallery page was taken from ???
-- The text for the About page was taken from ???
+- The text for the About page was made up.
 - The text for the Contact me! page was taken from ???
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)

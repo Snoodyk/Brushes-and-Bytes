@@ -252,71 +252,72 @@ footer p {
 }
 /*Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 824px) {
-        /* header */
-        nav {
-            display: block;
-            position: relative;
-            box-shadow: none;
-            width: fit-content;
-            padding-right: 1rem;
-        }
-    
-        #menu {
-            display: flex;
-        }
-    
-        #menu>li {
-            padding-left: 2rem;
-        }
-    
-        .nav-toggle-label {
-            display: none;
-        }
-    
-        #logo {
-            font-size: 200%;
-            line-height: 75px;
-            margin: 0 0.5rem;
-        }
-        /* Gallery */
+    /* header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
 
-    
-        /* Main content */
-        main {
+    #menu {
+        display: flex;
+    }
 
-            flex: 1 0 auto;
+    #menu>li {
+        padding-left: 2rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 200%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+    /* Gallery */
+
+
+    /* Main content */
+    main {
+
+        flex: 1 0 auto;
+    
+        margin-top: 47px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Contact section */
+    #contact {
+        margin-top: 47px;
+    }
+
+    /* heroine */
+    #cover-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /* Large devices (laptops and desktops, 992px and up) */
+    @media screen and (min-width: 992px) {
+        #menu a:hover {
+            border-bottom: 1px solid #3a3a3a;
+        }
+    }
+
+    @media screen and (min-width: 1200px){ 
+
         
-            margin-top: 47px;
-    
-            display: flex;
-            flex-direction: column;
-        }
-
-        /* Contact section */
-        #contact {
-            margin-top: 47px;
-        }
-
-        /* heroine */
-        #cover-text {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-
-        /* Large devices (laptops and desktops, 992px and up) */
-        @media screen and (min-width: 992px) {
-            #menu a:hover {
-                border-bottom: 1px solid #3a3a3a;
-            }
-        }
-
-        @media screen and (min-width: 1200px){ 
-
-         
-    #photos {
-        column-count: 4;
+        #photos {
+            column-count: 4;
 
         }
+    }
 }

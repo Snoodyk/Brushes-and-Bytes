@@ -99,6 +99,13 @@ main {
     flex-direction: column;
 }
 
+/* styling about Section */
+#abouts {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.8;
+}
 /* heroine Section */
 #heroine {
     height: 600px;
@@ -133,6 +140,10 @@ main {
 }
 
 /* Footer */
+
+footer {
+    border-top: 1px solid #0a0202;
+}
 
 #social-icons {
     text-align: center;

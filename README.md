@@ -128,6 +128,17 @@ Main structure of page reference used from love running project template. also u
 
 
 https://www.craiyon.com/   ai art
-https://www.img2go.com/ai-art-generator ai art
 https://www.jessiebearden.com/     inspirtation.
+
+## User Stories
+
+- As Connor, i want to view Art gallery so i can decide if i want to contact
+- As Amy, i want contact information of artis so i can contact the artist.
+- As Billy, i want to see social media icons so i can see artist work in facebook or youtube.
+- As Bianca, i want to see easy accessible website like menu button so i can go and comeback to main page.
+- As User, i want to website loads quickly  so i dont have to wait there so long.
+-As User, i want to buy products.
+
+- As Team lead, i want to khow what my teams are doing it so i khow when our project finishing time
+-As Product owner, i want to khow progress of my project so i can prioritise the work.
 

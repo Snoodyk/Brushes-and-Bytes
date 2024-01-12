@@ -108,19 +108,15 @@ main {
 #heroine {
     height: 600px;
     width: 100%;
-    background: url("../images/heroine.webp") no-repeat center center/cover;
+    background: url("../images/gallery/cyberpunkcity2.jpg") no-repeat center center/cover;
     position: relative;
 }
 
 
 #cover-text {
-    background: rgba(18, 8, 7, 0);
+    background: rgba(18, 8, 7, .5);
     font-size: 100%;
-    position: absolute;
-    bottom: 80px;
-    width: 80%;
-    min-height: 200px;
-    padding-top: 40px;
+    position: absolute;;
     padding-left: 10px;
 }
 

@@ -207,7 +207,10 @@ main {
     color: #3a3a3a;
     margin: 0 10px;
 }
-
+footer {
+    border-top: 1px solid green;
+    
+}
 footer p {
     
     color: black;
